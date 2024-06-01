@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text" style="padding-top: 200px;">
+                <p >UI/UX Designer</p>
+                <h1>Hi,I'm <span style="color: red;">Kevin</span> Jen <br> From Australia</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-call-1"   >
+                    <img src="images/user.png" style="height: 500px; border-radius: 20px;" >
+                </div>
+                <div class="about-call-2" >
+                    <h1 class="Subtitle" style="padding-right: 200px;" > About Me</h1>
+                    <p>"Hello! I'm Kevin Jen, a seasoned UI/UX designer passionate about crafting user-centric digital experiences. With 16 years of experience, I blend creativity with technical expertise to create intuitive interfaces that captivate users. Let's collaborate to bring your vision to life!"
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Devlopment</span><br> Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span> 2021-Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019-2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangloret</li>
+                            <li><span>2014</span><br>BBA from ISM Banglore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="sevices-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I offer comprehensive UI/UX design services to elevate your digital presence. From crafting visually stunning interfaces to optimizing user experiences, I specialize in creating seamless and engaging digital solutions tailored to your needs. Whether you need responsive design, interactive prototyping, usability testing, or strategic consultation, I'm here to help you achieve your goals and exceed user expectations.</p>
+                     <a href="#">Learn more</a>                
+                </div>
+                <div>
+                    <i class="fas fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I offer comprehensive UI/UX design services to elevate your digital presence. From crafting visually stunning interfaces to optimizing user experiences, I specialize in creating seamless and engaging digital solutions tailored to your needs. Whether you need responsive design, interactive prototyping, usability testing, or strategic consultation, I'm here to help you achieve your goals and exceed user expectations.</p>
+                     <a href="#">Learn more</a>                
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I offer comprehensive UI/UX design services to elevate your digital presence.
+                         From crafting visually stunning interfaces to optimizing user experiences, I specialize in creating seamless and engaging digital solutions tailored to your needs.
+                          Whether you need responsive design, interactive prototyping, usability testing, or strategic consultation, I'm here to help you achieve your goals and exceed user expectations.</p>
+                     <a href="#">Learn more</a>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work-1.png"> 
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>An app to connect you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>An app to connect you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>An app to connect you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a> 
+
+        </div>
+    </div>
+    <!-- contacat-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>012345678</p>
+                    <div class="social icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6 " placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+        
+         <span id="msg" color: #61b752;
+                margin-top: -40px;
+                display: block;></span>   
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 0 Kevin.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+    
+            // Show the content associated with the clicked tab
+            document.getElementById(tabname).classList.add("active-tab");
+            
+            // Highlight the clicked tab
+            for (var i = 0; i < tablinks.length; i++) {
+                if (tablinks[i].innerText === tabname) {
+                    tablinks[i].classList.add("active-link");
+                }
+            }
+            event.currentTarget.classList.add("active-link")
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyduPxmDQKGKCdknymsoCz4KzLzw1lwRYI9sDKZYAnvkoDaL1ahu1y1x8SM-IIm81q5/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
